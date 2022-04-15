@@ -24,7 +24,7 @@ body {
     max-width: 10000px;
 }
 
-    /* My personal Logo */
+    /* PERSONAL LOGO */
 
 .logo {
     position: absolute;
@@ -73,7 +73,7 @@ body {
 }
 
 
-/* My services section */
+/* SERVICES SECTION */
 
 #services_container {
     background-color: #F2F2F2;
@@ -115,7 +115,7 @@ body {
 }
 
 
-/* portfolio section */
+/* PORTFOLIO SECTION */
 
 #portfolio {
     color: #666D89;
@@ -150,27 +150,30 @@ body {
 }
 
 
-/* about us section */
+/* ABOUT ME SECTION */
 
-#profile {
+#Profile {
     background-color: gray;
-    border-bottom: 6px solid #FFF;
-    color: black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
     font-size: 1.1em;
-    line-height: 2em;
+    line-height: inherit;
     padding: 40px 20px;
     padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
     
+     
 }
 
-#profile h1 .center {
+#profile {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-/* get a quote section */
+/* GET INCONTACT SECTION */
 
 #quote {
     background-color: darkgray;
@@ -216,7 +219,7 @@ body {
 }
 
 
-/* footer */
+/* FOOTER */
 
 #footer {
     color: black;
