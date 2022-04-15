@@ -57,15 +57,6 @@ body {
     color: #808080;
 }
 
-.banner {
-    background-color: darkgray;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    
-}
 
 .banner img {
     max-width: 950px;
@@ -87,31 +78,30 @@ body {
 #services_container h1 {
     font-weight: bold;
     margin-top: 60px;
+    text-decoration-line: underline;
 }
 
 #services {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 50px;
     padding-bottom: 50px;
+       
 }
 
 .service {
     display: grid;
-    grid-template-columns: 88px auto;
-    padding-right: 15px;
-}
+    grid-template-columns: 60px auto;
+    padding: 13px;
+    }
 
-.service h2 {
-    font-size: 1.2em;
-    margin-top: 0;
-}
 
 .service p {
     font-size: 0.7em;
     line-height: 1.8em;
-    text-align: justify;
+    text-align: left;
+    padding-right: 150px
 }
 
 
@@ -162,9 +152,8 @@ body {
     padding-bottom: 20px;
     padding-left: 150px;
     padding-right: 150px;
-    
-     
 }
+
 
 #profile {
     display: block;
