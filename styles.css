@@ -7,27 +7,36 @@ d* {
 body {
     background-color: #F2F2F2;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: copperplate;
 }
 
 .header {
-    background-color: #2D2F3B;
-    color: white;
+    background-color: black;
+    color: darkgray;
     height: 90px;
-    border-bottom: 6px solid #4B4E61;
 }
 
 .nav {
     display: grid;
-    grid-template-columns: 200px auto;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 950px;
+    grid-template-columns: 200px aut;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 10000px;
 }
 
+    /* My personal Logo */
+
 .logo {
-    margin-top: 35px;
-    font-size: 1.4rem;
+    position: absolute;
+    text-align: justify;
+    color: grey;
+    font-size: 40px;
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    letter-spacing: 5px;
+    margin-top: 15px;
+    
+    
 }
 
 .links {
@@ -38,37 +47,41 @@ body {
 }
 
 .links a {
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
+    color: grey;
+    text-align: right;
+    text-decoration-style: solid;
+    text-decoration-color: darkgray;
 }
 
 .salmon {
-    color: #F16C65;
+    color: #808080;
 }
 
 .banner {
-    background-color: #F16C65;
-    padding: 20px 0;
+    background-color: darkgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
+    
 }
 
 .banner img {
-    max-width: 780px;
-    width: 90%;
+    max-width: 950px;
+    
 }
 
 
-/* our services section */
+/* My services section */
 
 #services_container {
     background-color: #F2F2F2;
-    color: #666D89;
+    color: black;
     font-size: 1.1em;
     line-height: 2em;
     margin: auto;
-    max-width: 950px;
+    max-width: 990px;
 }
 
 #services_container h1 {
@@ -86,7 +99,7 @@ body {
 
 .service {
     display: grid;
-    grid-template-columns: 80px auto;
+    grid-template-columns: 88px auto;
     padding-right: 15px;
 }
 
@@ -139,48 +152,30 @@ body {
 
 /* about us section */
 
-#about {
-    background-color: #F2F2F2;
+#profile {
+    background-color: gray;
     border-bottom: 6px solid #FFF;
-    color: #666D89;
+    color: black;
     font-size: 1.1em;
     line-height: 2em;
     padding: 40px 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    
 }
 
-#about .centered {
-    margin: auto;
-    max-width: 950px;
+#profile h1 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-
-#about #profiles {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#about #profiles h2 {
-    font-size: 1.2em;
-}
-
-#about #profiles p {
-    font-size: 0.7em;
-    line-height: 1.8em;
-    padding-right: 1em;
-}
-
-#about #profiles p img {
-    padding-right: 0.3em;
-    padding-top: 1em;
-}
-
 
 /* get a quote section */
 
 #quote {
-    background-color: #F06C64;
-    border-bottom: 6px solid #EA676B;
-    color: #F0D8D9;
+    background-color: darkgray;
+    border-bottom: 6px solid black;
+    color: black;
     font-size: 1.1em;
     line-height: 2em;
     padding: 40px 20px;
@@ -210,10 +205,10 @@ body {
 
 #quote input,
 #quote textarea {
-    background-color: #D6564F;
+    background-color: gray;
     border: none;
     border-radius: 6px;
-    color: #EC7E7E;
+    color: black;
     font-size: 0.7em;
     margin: 0.7em 0;
     padding: 1em;
@@ -224,8 +219,8 @@ body {
 /* footer */
 
 #footer {
-    color: #666D89;
-    background-color: #2D303A;
+    color: black;
+    background-color: white;
     font-size: 0.7em;
     padding: 40px 20px;
     padding-bottom: 50px;
@@ -244,8 +239,6 @@ body {
 }
 
 
-/* media queries */
-/* NOT NECESSARY AT THIS POINT IN THE COURSE */
 
 @media screen and (max-width: 480px) {
     body {
